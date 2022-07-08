@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: #9370DB;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+
+    text-align: center;
+    width: 350px;
+    margin: 60px auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+.fotoperfil {
+
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 3.7px;
+    border: 6px #8B008B solid;
+
+}
+
+ul {
+
+    list-style: none;
+    margin: 48px;
+
+}
+
+h1 {
+
+    Margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 40px;
+
+}
+
+p {
+
+    font-size: 22px;
+
+}
+
+ul li a {
+
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8B008B;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    transition: background 400ms;
+
+}
+
+ul li a:hover {
+
+    background: #631363;
+
+}
+
+.logoRoberta {
+
+    border-radius: 10px;
+
+}
