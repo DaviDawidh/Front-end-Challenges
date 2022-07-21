@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywolds" content="Gerador álcool ou gasolina">
+    <title>Gerador - Álcool ou gasolina?</title>
+    <link rel="Stylesheet" type="text/css" href="Style.css">
+    <link rel="Icon" href="Imagens/IconePostoGasolina.png">
+</head>
+
+<body>
+    <main class="container-principal">
+        <img class="img-principal" src="Imagens/PosteGasolina.png" alt="Imagem do posto de gasolina">
+        <h1 class="titulo-principal">Qual a melhor opção?</h1>
+
+        <form onsubmit="calcular(event)" class="container-form">
+            <label>Qual é o preço do Ácool atual(Preço por litro)?</label>
+            <input id="alcool" class="texto-input" type="number" placeholder="Ex. 4.88" min="1" step="0.01" required>
+
+            <label>Qual é o preço da Gasolina atual(Preço por litro)?</label>
+            <input id="gasolina" class="texto-input" type="number" placeholder="Ex. 6.48" min="1" step="0.01" required>
+
+            <input class="enviar-botao" type="submit" value="Calcular">
+        </form>
+
+        <section id="content-result" class="result hide">
+            <span id="item-result"></span>
+            <span id="alcool-result"></span>
+            <span id="gasolina-result"></span>
+        </section>
+
+    </main>
+
+    <div class="info-ajuda">
+        <span class="texto-info-ajuda">Veja como é feito o cálculo!</span>
+        <a href="Infor.html"><img class="img-info-ajuda" src="Imagens/IconeAjuda.png"
+                alt="Icone de Ajuda para informações"></a>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
